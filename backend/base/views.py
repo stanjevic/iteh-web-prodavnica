@@ -24,7 +24,7 @@ def getRoutes (request):
         '/api/products/<update>/<id>/',
 
     ]
-
+ 
     return Response(routes)
 
 @api_view(['GET'])
