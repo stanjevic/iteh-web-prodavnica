@@ -11,7 +11,7 @@ function Header() {
     <Navbar.Brand >ProShop</Navbar.Brand>
     </LinkContainer>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="">
+    <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
 
       <LinkContainer to='/cart'>
