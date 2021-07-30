@@ -50,7 +50,7 @@ def registerUser(request):
         messsage={'detail':'User with this email already exist'}
         return Response(messsage,status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(['GET'])
+@api_view(['GET']) 
 @permission_classes([IsAuthenticated])
 def getUserProfile(request):
         user=request.user
