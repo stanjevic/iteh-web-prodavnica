@@ -28,7 +28,7 @@ function UserListScreen({ history }) {
             history.push('/login')
         }
 
-    }, [dispatch, history, successDelete])
+    }, [dispatch, history, successDelete, userInfo])
 
 
 
