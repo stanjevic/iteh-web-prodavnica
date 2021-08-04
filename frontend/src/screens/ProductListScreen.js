@@ -94,9 +94,9 @@ function ProductListScreen({ history, match }) {
                                 </thead>
 
                                 <tbody>
-                                    {products.map(product => (
+                                    {products.map((product,i) => (
                                         <tr key={product._id}>
-                                            <td>{product._id}</td>
+                                            <td>{i+1}</td>
                                             <td>{product.name}</td>
                                             <td>${product.price}</td>
                                             <td>{product.category}</td>
